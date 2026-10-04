@@ -1,0 +1,119 @@
+/* ==============================
+   ESTILOS GENERALES
+================================ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.introduccion {
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+
+/* ==============================
+   SECCIONES
+================================ */
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+
+/* ==============================
+   FORMULARIOS
+================================ */
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+input {
+    flex: 1;
+    min-width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 18px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+button:hover {
+    background-color: #dddddd;
+}
+
+
+/* ==============================
+   TABLAS
+================================ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    word-break: break-word;
+}
+
+
+/* ==============================
+   MENSAJES
+================================ */
+
+.error {
+    margin-top: 20px;
+    color: #b00020;
+}
+
+.mensaje {
+    margin-top: 20px;
+}

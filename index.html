@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Actividad Integradora Unidad 1</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <h1>Búsqueda en APIs Públicas</h1>
+
+        <p class="introduccion">
+            Aplicación desarrollada con HTML, CSS y JavaScript para realizar
+            búsquedas en diferentes APIs públicas y mostrar los resultados
+            dinámicamente mediante tablas HTML.
+        </p>
+
+
+        <!-- ===================================
+             POKÉAPI
+        ==================================== -->
+
+        <section>
+
+            <h2>1. PokéAPI</h2>
+
+            <p>
+                Escribe el nombre o ID de un Pokémon para consultar su información.
+            </p>
+
+            <form id="formPokemon">
+
+                <input
+                    type="text"
+                    id="pokemonBusqueda"
+                    placeholder="Ejemplo: pikachu"
+                    required
+                >
+
+                <button type="submit">
+                    Buscar Pokémon
+                </button>
+
+            </form>
+
+            <div id="resultadoPokemon"></div>
+
+        </section>
+
+
+        <!-- ===================================
+             OPEN-METEO
+        ==================================== -->
+
+        <section>
+
+            <h2>2. Open-Meteo</h2>
+
+            <p>
+                Escribe el nombre de una ciudad para consultar sus
+                condiciones meteorológicas actuales.
+            </p>
+
+            <form id="formClima">
+
+                <input
+                    type="text"
+                    id="ciudadBusqueda"
+                    placeholder="Ejemplo: Guadalajara"
+                    required
+                >
+
+                <button type="submit">
+                    Buscar ciudad
+                </button>
+
+            </form>
+
+            <div id="resultadoClima"></div>
+
+        </section>
+
+
+        <!-- ===================================
+             DOG API
+        ==================================== -->
+
+        <section>
+
+            <h2>3. Dog API</h2>
+
+            <p>
+                Escribe el nombre de una raza o subraza de perro.
+            </p>
+
+            <form id="formPerros">
+
+                <input
+                    type="text"
+                    id="razaBusqueda"
+                    placeholder="Ejemplo: hound"
+                    required
+                >
+
+                <button type="submit">
+                    Buscar raza
+                </button>
+
+            </form>
+
+            <div id="resultadoPerros"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

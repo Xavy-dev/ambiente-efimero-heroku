@@ -1,0 +1,22 @@
+{
+  "name": "act_2.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint js/filtros.js tests/filtros.test.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "jest": "^30.5.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
